@@ -1,0 +1,85 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:blanchedalmond;
+}
+h1{
+    display:block;
+    text-align: center;
+    width: 50vh;
+    font-size: 4rem;
+}
+h2{
+    text-align:center;
+}
+h3{
+    text-decoration:underline;
+}
+.centered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+}
+#instruction-box{
+    display: flex;
+    align-items: center;
+    padding:1%;
+    max-width: 600px;
+    border-color: black;
+    border-style: solid;
+}
+.the-text{
+    margin: 0px,20px;
+    max-width: 800px;
+    padding: 0em,1em;
+}
+.random-text{
+    border-style:solid;
+}
+div{
+    margin:10px
+}
+p{
+    font-size: 1.3em;
+    height: auto;
+    padding:1em;
+    max-width: 800px;
+    white-space: pre-wrap;    
+}
+
+#timing-box{
+    display: flex;
+    gap: 20px;
+}
+
+.count-down{
+}
+
+#start-button{
+    background-color: #e6aa5c;
+    font-size: x-large;
+    margin: 1em;
+    border-radius: 10px;
+}
+.green-background{
+    background-color: greenyellow;
+}
+.red-background{
+    background-color: red;
+}
+.pressed-button{
+    opacity: 50%;
+}
+.invisible{
+    display: none;
+}
+.green-text{
+    color: green;
+}
+.red-text{
+    color: red;
+}
+.space-on-bottom{
+    display: block;
+    height: 30rem;
+}
